@@ -10,5 +10,6 @@ public class Kata1 {
         LocalDate date = LocalDate.of(2002,1,23);
         Person p1 = new Person("Guillermo",date); 
         System.out.println("Nombre de la persona "+ p1.getName()+" "+"Edad de la persona " +p1.getAge()+" años");
+        
         }
 }
